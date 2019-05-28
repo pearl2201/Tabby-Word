@@ -1,0 +1,48 @@
+html,
+body,
+#content,
+#content-game {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1cb93;
+}
+
+#content-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+#goggle-search{
+    display:flex;
+    align-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+
+#goggle-search >form{
+   
+    align-self: center;
+    margin:auto;
+}
+
+input#google-searchbox{
+    width:40%;
+    height:50px;
+    margin:auto;
+    border-radius: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: #f1f3f4;
+    border-style:inset;
+    border-width: 0px;
+    outline: none;
+}
